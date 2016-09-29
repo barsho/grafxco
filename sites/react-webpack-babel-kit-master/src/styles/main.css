@@ -1,13 +1,21 @@
-body {
-  background: #ccc; }
+@font-face {
+  font-family: 'Gotham-Medium';
+  src: local("./fonts/Gotham-Medium.otf"); }
+@font-face {
+  font-family: 'Gotham-Light';
+  src: local("./fonts/Gotham-Light.otf"); }
+html, body {
+  margin: 0;
+  padding: 0; }
 
-p {
-  color: #ccc; }
-
 body {
+  background: gray;
   font-size: 62.5%; }
 
-.hello-form p {
+p {
   color: red; }
+
+/* When compiled, our paragraph selector's color is #ccc
+*/
 
 /*# sourceMappingURL=main.css.map */

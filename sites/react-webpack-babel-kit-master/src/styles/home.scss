@@ -1,0 +1,171 @@
+$primaryTextColor: #7f8385;
+$primaryHeaderColor: #37393a;
+$primaryContainerBackgroundColor: white;
+
+/* 
+
+$primaryTextColor: #37393a;
+$homeMainContainerBackground: white;
+$firstValue: 62.5%;
+$firstValue: 24px !default;
+
+*/
+
+html, body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.homeMainContainer {
+	margin: auto;
+	width: 50%;
+	background-color: $primaryContainerBackgroundColor;
+	padding-left: 64px;
+	padding-right: 64px;
+	height: 100%;
+}
+
+.homeTopBannerContainer {
+	margin: auto;
+	width: 100%;
+	background-color: red;
+}
+
+.homeSecondaryContainer {
+	margin: auto;
+	width: 100%;
+	background-color: white;
+	display: flex; /* or inline-flex */
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.homeSecondaryTextBox {
+	margin: auto;
+	width: 240px;
+	background-color: white;
+	padding-right: 2px;
+	display: inline-block;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 25px;
+	padding-right: 25px;
+	height: auto;
+}
+
+.viewWorks {
+	display: none;
+	background-color: white;
+
+}
+
+
+.homeSecondaryTextBox:hover {
+	cursor: hand;
+}
+
+
+.homeSecondaryTextBox:hover .homeSecondaryTextBoxHeader {
+	color: rgba(127, 131, 133, 0.2);
+}
+
+.homeSecondaryTextBox:hover .homeSecondaryTextBoxBody {
+	color: rgba(127, 131, 133, 0.2);
+}
+
+.homeSecondaryTextBox:hover .viewWorks {
+	display: block;
+	position: absolute;
+	padding: auto;
+	text-align: center;
+	width: auto;
+	height: auto;
+	border: solid 0.5px #efad17;
+	margin: 0 auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 30px;
+	margin-left: 40px;
+	margin-top: 40px;
+	padding-right: 30px;
+	color: #efad17;
+	font-family: 'Gotham-Medium', sans-serif;
+	font-size: 14px;
+}
+
+.homeSecondaryTextBoxHeader {
+	margin: auto;
+	width: 100%;
+	font-size: 16px;
+	font-family: 'Gotham-Medium', sans-serif;
+	padding-bottom: 20px;
+	color: $primaryHeaderColor;
+}
+
+.homeSecondaryTextBoxBody {
+	margin: auto;
+	width: 100%;
+	font-size: 14px;
+	font-family: 'Gotham-Light', sans-serif;
+	color: $primaryTextColor;
+}
+
+.vertical-divider{
+    border-left: 1px solid #000000;
+    opacity: 0.2;
+}
+
+
+
+
+
+/* 
+
+
+
+$primaryColor: #eeccff;
+
+body {
+  $primaryColor: #ccc !global;
+  background: $primaryColor;
+}
+
+p {
+  color: $primaryColor;
+}
+
+// When compiled, our paragraph selector's color is #ccc
+
+
+
+
+$firstValue: 62.5%;
+
+$firstValue: 24px !default;
+
+body {
+    font-size: $firstValue;
+}
+
+// body font size = 62.5%
+
+
+
+
+
+
+
+.hello-form {
+    p {
+        color: red;
+    }
+}
+
+
+
+
+*/
+

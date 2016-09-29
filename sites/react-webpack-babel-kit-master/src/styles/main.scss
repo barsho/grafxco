@@ -1,37 +1,34 @@
-$primaryColor: #eeccff;
+$backgroundColor: gray !global;
+$primaryColor: red;
+$firstValue: 62.5%;
+
+@font-face {
+	font-family: 'Gotham-Medium';
+	src: local('./fonts/Gotham-Medium.otf');
+}
+
+@font-face {
+	font-family: 'Gotham-Light';
+	src: local('./fonts/Gotham-Light.otf');
+}
+
+
+
+html, body
+{
+    margin: 0;
+    padding: 0;
+}
+
 
 body {
-  $primaryColor: #ccc !global;
-  background: $primaryColor;
+	background: $backgroundColor;
+	font-size: $firstValue;
 }
 
 p {
   color: $primaryColor;
 }
 
-// When compiled, our paragraph selector's color is #ccc
-
-
-
-
-$firstValue: 62.5%;
-
-$firstValue: 24px !default;
-
-body {
-    font-size: $firstValue;
-}
-
-// body font size = 62.5%
-
-
-
-
-
-
-
-.hello-form {
-    p {
-        color: red;
-    }
-}
+/* When compiled, our paragraph selector's color is #ccc
+*/
