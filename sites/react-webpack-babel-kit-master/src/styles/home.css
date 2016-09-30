@@ -35,7 +35,7 @@ html, body {
 
 .homeSecondaryTextBox {
   margin: auto;
-  width: 240px;
+  width: 254px;
   background-color: white;
   padding-right: 2px;
   display: inline-block;
@@ -44,11 +44,27 @@ html, body {
   padding-bottom: 50px;
   padding-left: 25px;
   padding-right: 25px;
-  height: auto; }
+  height: 160px; }
 
 .viewWorks {
   display: none;
-  background-color: white; }
+  background-color: white;
+  position: absolute;
+  padding: auto;
+  text-align: center;
+  width: auto;
+  height: auto;
+  border: solid 0.5px #efad17;
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  margin-left: 50px;
+  margin-top: 60px;
+  padding-right: 30px;
+  color: #efad17;
+  font-family: 'Gotham-Medium', sans-serif;
+  font-size: 14px; }
 
 .homeSecondaryTextBox:hover {
   cursor: hand; }
@@ -60,23 +76,7 @@ html, body {
   color: rgba(127, 131, 133, 0.2); }
 
 .homeSecondaryTextBox:hover .viewWorks {
-  display: block;
-  position: absolute;
-  padding: auto;
-  text-align: center;
-  width: auto;
-  height: auto;
-  border: solid 0.5px #efad17;
-  margin: 0 auto;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 30px;
-  margin-left: 40px;
-  margin-top: 40px;
-  padding-right: 30px;
-  color: #efad17;
-  font-family: 'Gotham-Medium', sans-serif;
-  font-size: 14px; }
+  display: block; }
 
 .homeSecondaryTextBoxHeader {
   margin: auto;
