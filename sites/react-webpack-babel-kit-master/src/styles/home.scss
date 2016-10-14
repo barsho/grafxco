@@ -122,7 +122,39 @@ html, body
 	background-color: white;
 	margin: auto;
 	display: block;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
+}
+
+.imagebox__full--title {
+	display: block;
+	margin-left: 30px;
+	margin-top: 20px;
+	position: absolute;
+	color: white;
+	opacity: 0.7;
+	font-size: 14px;
+	font-family: 'Gotham-Light', sans-serif;
+
+}
+
+.imagebox__half--title {
+	display: block;
+	margin-left: 30px;
+	margin-top: 27px;
+	position: absolute;
+	color: black;
+	opacity: 0.8;
+	font-size: 14px;
+	font-family: 'Gotham-Medium', sans-serif;
+
+}
+
+.imagebox__full:hover .imagebox__full--title {
+	display: none;
+}
+
+.imagebox__half:hover .imagebox__half--title {
+	display: none;
 }
 
 .imagebox__full--mod {
@@ -134,23 +166,101 @@ html, body
 	background-color: white;
 	margin: auto;
 	display: block;
-	margin-bottom: 25px;
+	margin-bottom: 10px;
 	display: flex; /* or inline-flex */
 	flex-direction: row;
-	flex-wrap: wrap;
+	flex-flow: row wrap;
 	justify-content: space-between;
 }
 
 .imagebox__half--left {
 	width: 49%;
 	height: 100%;
+	padding-top: 10px;
 }
 
 .imagebox__half--right {
 	width: 49%;
 	height: 100%;
+	padding-top: 10px;
 }
 
+.brands {
+	width: 95%;
+	display: block;
+	margin: auto;
+	padding-bottom: 100px;
+}
+
+.brands__title {
+	text-align: center;
+	float: center;
+	position: relative;
+	font-size: 24px;
+	font-family: 'Gotham-Light', sans-serif;
+	color: $primaryTextColor;
+	padding-top: 50px;
+
+}
+
+.brands__body {
+	margin: auto;
+	background-color: white;
+	display: flex; /* or inline-flex */
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.brands__item {
+	background-color: white;
+	width: 300px;
+	height: 100px;
+	display: block;
+	margin: auto;
+	margin-top: 60px;
+}
+
+.brands__item:hover .brands__item--logo {
+	display: none;
+}
+
+.brands__item:hover .brands__item--link {
+	display: block;
+}
+
+.brands__item--link {
+	margin-left: 70px;
+	margin-top: 27px;
+	width: auto;
+	height: auto;
+	display: none;
+	background-color: white;
+	position: absolute;
+	text-align: center;
+	border: solid 0.5px #efad17;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: #efad17;
+	font-family: 'Gotham-Medium', sans-serif;
+	font-size: 14px;
+
+}
+
+.brands__item--logo {
+	height: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footer {
+	width: 100%;
+	height: 600px;
+	background-color: black;
+}
 
 /* 
 

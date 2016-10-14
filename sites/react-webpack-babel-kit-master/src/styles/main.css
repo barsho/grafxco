@@ -4,6 +4,9 @@
 @font-face {
   font-family: 'Gotham-Light';
   src: local("./fonts/Gotham-Light.otf"); }
+@font-face {
+  font-family: 'Gotham-Regular';
+  src: local("./fonts/Gotham.otf"); }
 html, body {
   margin: 0;
   padding: 0; }
