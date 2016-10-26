@@ -3,15 +3,21 @@
 <head>
  	<meta charset="UTF-8" />
     <title>Hello react!</title>
-    <link rel="stylesheet" href="./src/styles/main.css" type="text/css"/>
-    <link rel="stylesheet" href="./src/styles/home.css" type="text/css"/>
+    <link rel="stylesheet" href="./src/styles/main.scss" type="text/css"/>
+    <link rel="stylesheet" href="./src/styles/home.scss" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 
 </head>
 <body>
-<div class="block">
-	<div class="banner">
+	<div class="topnav">
+		<div class="topnav__content">
+			<div><img class="topnav__logo" src="assets/img/logo.png">
+			</div>
+			<div><img class="topnav__search" src="assets/img/search.png">
+			</div>
+		</div>
 	</div>
+<div class="block">
 	<div class="infobox">
 		<a href="">
 			<div class="infobox__item infobox__item--first">
@@ -40,83 +46,112 @@
 		<a href="">
 			<div class="infobox__item">
 				<div class="infobox__link">VIEW WORKS</div>
-				<div class="infobox__title">Experimental & Digital</div>
+				<div class="infobox__title">Experiental & Digital</div>
 				<div class="infobox__text">Our experience design expertise is based on a decade long dedication to digital design, out-of-home media, strategic user experience and user interface design for web, mobile, virtual reality as well as live event media and real-time interactive installations.</div>
 			</div>
 		</a>
 	</div>
 	<div class="imagebox">
-		<div class="imagebox__full">
-			<div class="imagebox__full--title">Bank of America</div>
-			<img class="imagebox__full--mod" src="assets/img/imagebox__full.png">
-		</div>
-		<div class="imagebox__half">
-			<div class="imagebox__half--title"></div>
-			<img class="imagebox__half--left" src="assets/img/imagebox__half--left1.png">
-			<img class="imagebox__half--right" src="assets/img/imagebox__half--right1.png">
-		</div>
-		<div class="imagebox__half">
-			<img class="imagebox__half--left" src="assets/img/imagebox__half--left2.png">
-			<img class="imagebox__half--right" src="assets/img/imagebox__half--right2.png">
-		</div>
+		<a href="">
+			<div class="imagebox__full">
+				<div class="imagebox__full--link">VIEW CASE</div>
+				<div class="imagebox__full--title"></div>
+				<img class="imagebox__full--image" src="assets/img/imagebox__full.png">
+			</div>
+		</a>
 	</div>
-	<div class="brands">
-		<div class="brands__title">Brands We Work With</div>
-		<div class="brands__body">
-			<div class="brands__item">
-				<div class="brands__item--link">LEARN MORE</div>
-				<img class="brands__item--logo" src="assets/img/brand__logo1.png">
-			</div>
-			<div class="brands__item">
-				<div class="brands__item--link">LEARN MORE</div>
-				<img class="brands__item--logo" src="assets/img/brand__logo2.png">
-			</div>
-			<div class="brands__item">
-				<div class="brands__item--link">LEARN MORE</div>
-				<img class="brands__item--logo" src="assets/img/brand__logo3.png">
-			</div>
-			<div class="brands__item">
-				<div class="brands__item--link">LEARN MORE</div>
-				<img class="brands__item--logo" src="assets/img/brand__logo4.png">
-			</div>
-			<div class="brands__item">
-				<div class="brands__item--link">LEARN MORE</div>
-				<img class="brands__item--logo" src="assets/img/brand__logo5.png">
-			</div>
-			<div class="brands__item">
-				<div class="brands__item--link">LEARN MORE</div>
-				<img class="brands__item--logo" src="assets/img/brand__logo6.png">
-			</div>
-			<div class="brands__item">
-				<div class="brands__item--link">LEARN MORE</div>
-				<img class="brands__item--logo" src="assets/img/brand__logo7.png">
-			</div>
-			<div class="brands__item">
-				<div class="brands__item--link">LEARN MORE</div>
-				<img class="brands__item--logo" src="assets/img/brand__logo8.png">
-			</div>
-			<div class="brands__item">
-				<div class="brands__item--link">LEARN MORE</div>
-				<img class="brands__item--logo" src="assets/img/brand__logo9.png">
-			</div>
-			<div class="brands__item">
-				<div class="brands__item--link">LEARN MORE</div>
-				<img class="brands__item--logo" src="assets/img/brand__logo10.png">
-			</div>
-			<div class="brands__item">
-				<div class="brands__item--link">LEARN MORE</div>
-				<img class="brands__item--logo" src="assets/img/brand__logo11.png">
-			</div>
-			<div class="brands__item">
-				<div class="brands__item--link">LEARN MORE</div>
-				<img class="brands__item--logo" src="assets/img/brand__logo1.png">
-			</div>
+	<div class="imagebox">
+		<div class="imagebox__half">
+			<div class="imagebox__half--link">VIEW CASE</div>
+			<div class="imagebox__half--title black"></div>
+			<img class="imagebox__half--image" src="assets/img/imagebox__half--left1.png">
 		</div>
+		<div class="imagebox__half">
+			<div class="imagebox__half--link">VIEW CASE</div>
+			<div class="imagebox__half--title black"></div>
+			<img class="imagebox__half--image" src="assets/img/imagebox__half--right1.png">
+		</div>
+		<div class="imagebox__half">
+			<div class="imagebox__half--link">VIEW CASE</div>
+			<div class="imagebox__half--title black"></div>
+			<img class="imagebox__half--image" src="assets/img/imagebox__half--left2.png">
+		</div>
+		<div class="imagebox__half">
+			<div class="imagebox__half--link">VIEW CASE</div>
+			<div class="imagebox__half--title white"></div>
+			<img class="imagebox__half--image" src="assets/img/imagebox__half--right2.png">
+		</div>
+
+	</div>
+
+
 		
-	</div>
-	<div class="footer">
-	</div>
+
+
+
+
+
+
+	<div class="clients">
+		<div class="clients__title">Brands We Work With</div>
+		<div class="clients__list">
+			<div class="clients__item">
+				<div class="clients__item--link">LEARN MORE</div>
+				<img class="clients__item--logo" src="assets/img/brand__logo1.png">
+			</div>
+			<div class="clients__item">
+				<div class="clients__item--link">LEARN MORE</div>
+				<img class="clients__item--logo" src="assets/img/brand__logo2.png">
+			</div>
+			<div class="clients__item">
+				<div class="clients__item--link">LEARN MORE</div>
+				<img class="clients__item--logo" src="assets/img/brand__logo3.png">
+			</div>
+			<div class="clients__item">
+				<div class="clients__item--link">LEARN MORE</div>
+				<img class="clients__item--logo" src="assets/img/brand__logo4.png">
+			</div>
+			<div class="clients__item">
+				<div class="clients__item--link">LEARN MORE</div>
+				<img class="clients__item--logo" src="assets/img/brand__logo5.png">
+			</div>
+			<div class="clients__item">
+				<div class="clients__item--link">LEARN MORE</div>
+				<img class="clients__item--logo" src="assets/img/brand__logo6.png">
+			</div>
+			<div class="clients__item">
+				<div class="clients__item--link">LEARN MORE</div>
+				<img class="clients__item--logo" src="assets/img/brand__logo7.png">
+			</div>
+			<div class="clients__item">
+				<div class="clients__item--link">LEARN MORE</div>
+				<img class="clients__item--logo" src="assets/img/brand__logo8.png">
+			</div>
+			<div class="clients__item">
+				<div class="clients__item--link">LEARN MORE</div>
+				<img class="clients__item--logo" src="assets/img/brand__logo9.png">
+			</div>
+			<div class="clients__item">
+				<div class="clients__item--link">LEARN MORE</div>
+				<img class="clients__item--logo" src="assets/img/brand__logo10.png">
+			</div>
+			<div class="clients__item">
+				<div class="clients__item--link">LEARN MORE</div>
+				<img class="clients__item--logo" src="assets/img/brand__logo11.png">
+			</div>
+			<div class="clients__item">
+				<div class="clients__item--link">LEARN MORE</div>
+				<img class="clients__item--logo" src="assets/img/brand__logo1.png">
+			</div>
+		</div>
 </div>
+	</div>
+	<div class="bottomnav">
+		<div class="footer">
+	</div>
+	</div>
+
+
 <script src="./src/scripts/main.js"></script>
 </body>
 </html>

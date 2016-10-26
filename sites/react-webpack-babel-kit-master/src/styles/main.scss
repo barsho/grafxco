@@ -14,8 +14,14 @@ $firstValue: 62.5%;
 
 @font-face {
 	font-family: 'Gotham-Regular';
-	src: local('./fonts/Gotham.otf');
+	src: local('./fonts/Gotham.ttf');
 }
+
+@font-face {
+	font-family: 'Gotham-Bold';
+	src: local('./fonts/GothaBol.ttf');
+}
+
 
 
 

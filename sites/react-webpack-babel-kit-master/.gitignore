@@ -6,3 +6,7 @@ dist
 
 # OSX files
 .DS_Store
+
+# Ignore CSS & CSS Map File
+*.css
+*.css.map
